@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let empDetail={
+    name:"Aishu",
+    age:25,
+    Salary:50000,
+    printDetails:function (){
+        console.log("Common Function:--",this);
+    },
+    printSalary:()=>{
+console.log("Arrow Function:--",this);
+    }
+}
+
+empDetail.printDetails();
+empDetail.printSalary();
+    </script>
+</body>
+</html>
